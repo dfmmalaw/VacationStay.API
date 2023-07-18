@@ -43,4 +43,7 @@
     <Folder Include="Repository\" />
     <Folder Include="RepositoryAbstractions\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
 </Project>

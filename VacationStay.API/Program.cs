@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using VacationStay.API.Data;
 using VacationStay.API.Configurations;
+using VacationStay.API.RepositoryAbstractions;
+using VacationStay.API.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +28,9 @@ builder.Services.AddCors(options =>
 builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
+
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
 
 var app = builder.Build();
 
