@@ -1,0 +1,17 @@
+2023-07-18 10:40:36.674 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-18 10:40:36.687 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-18 10:40:36.688 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-18 10:40:36.689 -04:00 [INF] Hosting environment: Development
+2023-07-18 10:40:36.689 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-18 10:47:44.477 -04:00 [INF] HTTP POST /api/Countries responded 400 in 123.3911 ms
+2023-07-18 10:48:38.005 -04:00 [INF] HTTP POST /api/Countries responded 400 in 8.8092 ms
+2023-07-18 10:52:32.111 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-18 10:52:32.124 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-18 10:52:32.125 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-18 10:52:32.125 -04:00 [INF] Hosting environment: Development
+2023-07-18 10:52:32.125 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-18 10:53:16.984 -04:00 [INF] HTTP POST /api/Countries responded 201 in 1610.3406 ms
+2023-07-18 11:01:06.175 -04:00 [INF] HTTP GET /favicon.ico responded 404 in 1.6901 ms
+2023-07-18 11:03:56.322 -04:00 [INF] HTTP POST /api/countries responded 201 in 771.9538 ms
+2023-07-18 11:14:19.797 -04:00 [INF] HTTP GET /api/Countries responded 200 in 742.3337 ms
+2023-07-18 11:14:33.416 -04:00 [INF] HTTP GET /api/Countries/2 responded 200 in 272.9255 ms
