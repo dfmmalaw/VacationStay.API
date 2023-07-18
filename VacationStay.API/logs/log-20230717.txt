@@ -1,0 +1,7 @@
+2023-07-17 21:05:45.907 -04:00 [ERR] Failed executing DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Countries` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` longtext NOT NULL,
+    `ShortName` longtext NOT NULL,
+    PRIMARY KEY (`Id`)
+);

@@ -1,8 +1,16 @@
 ﻿using Serilog;
+using Microsoft.EntityFrameworkCore;
+using VacationStay.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var connectionString = builder.Configuration.GetConnectionString("VacationStayDbConnectionString");
+builder.Services.AddDbContext<VacationStayDbContext>(options =>
+{
+    options.UseMySQL(connectionString);
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
