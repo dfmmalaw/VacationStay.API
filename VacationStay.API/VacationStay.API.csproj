@@ -22,12 +22,25 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.9" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Data\" />
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\Country\" />
+    <None Remove="Configurations\" />
+    <None Remove="DTOs\Hotel\" />
+    <None Remove="Repository\" />
+    <None Remove="RepositoryAbstractions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\Country\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="DTOs\Hotel\" />
+    <Folder Include="Repository\" />
+    <Folder Include="RepositoryAbstractions\" />
   </ItemGroup>
 </Project>
