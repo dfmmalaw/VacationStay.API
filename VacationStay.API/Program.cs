@@ -5,6 +5,7 @@ using VacationStay.API.Configurations;
 using VacationStay.API.RepositoryAbstractions;
 using VacationStay.API.Repository;
 using Microsoft.AspNetCore.Identity;
+using VacationStay.API.Auth;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +38,7 @@ builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
 builder.Services.AddScoped<IHotelsRepository, HotelsRepository>();
+builder.Services.AddScoped<IAuthManager, AuthManager>();
 
 
 var app = builder.Build();

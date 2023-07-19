@@ -3,6 +3,7 @@ using AutoMapper;
 using VacationStay.API.Data;
 using VacationStay.API.DTOs.Country;
 using VacationStay.API.DTOs.Hotel;
+using VacationStay.API.DTOs.Users;
 
 namespace VacationStay.API.Configurations
 {
@@ -17,6 +18,8 @@ namespace VacationStay.API.Configurations
 
             CreateMap<Hotel, HotelDto>().ReverseMap();
 			CreateMap<Hotel, CreateHotelDto>().ReverseMap();
+
+			CreateMap<User, UserDto>().ReverseMap();
         }
 	}
 }

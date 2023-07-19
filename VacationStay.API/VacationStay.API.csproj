@@ -35,6 +35,8 @@
     <None Remove="Repository\" />
     <None Remove="RepositoryAbstractions\" />
     <None Remove="Data\Configurations\" />
+    <None Remove="DTOs\Users\" />
+    <None Remove="Auth\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -45,5 +47,7 @@
     <Folder Include="Repository\" />
     <Folder Include="RepositoryAbstractions\" />
     <Folder Include="Data\Configurations\" />
+    <Folder Include="DTOs\Users\" />
+    <Folder Include="Auth\" />
   </ItemGroup>
 </Project>
