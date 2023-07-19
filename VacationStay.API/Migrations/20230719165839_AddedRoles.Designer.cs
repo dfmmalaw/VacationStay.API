@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VacationStay.API.Data;
 
@@ -10,9 +11,11 @@ using VacationStay.API.Data;
 namespace VacationStay.API.Migrations
 {
     [DbContext(typeof(VacationStayDbContext))]
-    partial class VacationStayDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230719165839_AddedRoles")]
+    partial class AddedRoles
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

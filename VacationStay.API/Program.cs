@@ -4,6 +4,7 @@ using VacationStay.API.Data;
 using VacationStay.API.Configurations;
 using VacationStay.API.RepositoryAbstractions;
 using VacationStay.API.Repository;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,10 @@ builder.Services.AddDbContext<VacationStayDbContext>(options =>
 {
     options.UseMySQL(connectionString);
 });
+
+builder.Services.AddIdentityCore<User>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<VacationStayDbContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

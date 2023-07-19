@@ -92,7 +92,6 @@ namespace VacationStay.API.Controllers
         public async Task<ActionResult<Hotel>> PostHotel(CreateHotelDto hotelDto)
         {
             var hotel = _mapper.Map<Hotel>(hotelDto);
-
             await _hotelsRepository.AddAsync(hotel);
 
             return CreatedAtAction("GetHotel", new { id = hotel.Id }, hotel);

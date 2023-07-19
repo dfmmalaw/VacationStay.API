@@ -23,6 +23,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.9" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.9" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,6 +34,7 @@
     <None Remove="DTOs\Hotel\" />
     <None Remove="Repository\" />
     <None Remove="RepositoryAbstractions\" />
+    <None Remove="Data\Configurations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -42,5 +44,6 @@
     <Folder Include="DTOs\Hotel\" />
     <Folder Include="Repository\" />
     <Folder Include="RepositoryAbstractions\" />
+    <Folder Include="Data\Configurations\" />
   </ItemGroup>
 </Project>
