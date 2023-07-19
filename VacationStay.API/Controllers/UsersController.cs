@@ -41,5 +41,41 @@ namespace VacationStay.API.Controllers
 
             return Ok();
         }
+
+        // api/User/login
+        [HttpPost]
+        [Route("login")]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult> Login([FromBody] LoginDto loginDto)
+        {
+            var authResponse = await _authManager.Login(loginDto);
+
+            if (authResponse is null)
+            {
+                return Unauthorized();
+            }
+
+            return Ok(authResponse);
+        }
+
+        // api/User/refreshToken
+        [HttpPost]
+        [Route("refreshToken")]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult> RefreshToken([FromBody] AuthResponseDto authResponseDto)
+        {
+            var authResponse = await _authManager.VerifyRefreshToken(authResponseDto);
+
+            if (authResponse is null)
+            {
+                return Unauthorized();
+            }
+
+            return Ok(authResponse);
+        }
     }
 }

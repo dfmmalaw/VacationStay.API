@@ -23,3 +23,16 @@
 2023-07-19 14:13:23.396 -04:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-07-19 14:13:23.396 -04:00 [INF] Hosting environment: Development
 2023-07-19 14:13:23.396 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-19 18:27:28.308 -04:00 [WRN] No XML encryptor configured. Key {c2d8e742-eb0f-49d9-b4ba-72a6674b6cb9} may be persisted to storage in unencrypted form.
+2023-07-19 18:27:28.641 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-19 18:27:28.641 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-19 18:27:28.642 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 18:27:28.642 -04:00 [INF] Hosting environment: Development
+2023-07-19 18:27:28.642 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-19 18:50:49.967 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-19 18:50:49.982 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-19 18:50:49.982 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 18:50:49.982 -04:00 [INF] Hosting environment: Development
+2023-07-19 18:50:49.982 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-19 18:53:05.224 -04:00 [INF] HTTP POST /api/Users/register responded 400 in 196.4782 ms
+2023-07-19 18:53:58.947 -04:00 [INF] HTTP POST /api/Users/register responded 200 in 2512.8313 ms
