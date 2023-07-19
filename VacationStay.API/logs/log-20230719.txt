@@ -1,0 +1,5 @@
+2023-07-19 00:32:56.435 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-19 00:32:56.454 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-19 00:32:56.455 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 00:32:56.456 -04:00 [INF] Hosting environment: Development
+2023-07-19 00:32:56.456 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
