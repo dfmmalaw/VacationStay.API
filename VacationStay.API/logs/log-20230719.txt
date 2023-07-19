@@ -3,3 +3,13 @@
 2023-07-19 00:32:56.455 -04:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-07-19 00:32:56.456 -04:00 [INF] Hosting environment: Development
 2023-07-19 00:32:56.456 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-19 10:33:01.897 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-19 10:33:01.911 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-19 10:33:01.912 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 10:33:01.912 -04:00 [INF] Hosting environment: Development
+2023-07-19 10:33:01.912 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-19 10:54:44.447 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-19 10:54:44.461 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-19 10:54:44.462 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 10:54:44.462 -04:00 [INF] Hosting environment: Development
+2023-07-19 10:54:44.462 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API

@@ -1,11 +1,11 @@
 ﻿using System;
+using VacationStay.API.Data;
+
 namespace VacationStay.API.RepositoryAbstractions
 {
-	public class IHotelsRepository
+	public interface IHotelsRepository : IGenericRepository<Hotel>
 	{
-		public IHotelsRepository()
-		{
-		}
+
 	}
 }
 
