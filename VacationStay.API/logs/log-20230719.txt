@@ -36,3 +36,13 @@
 2023-07-19 18:50:49.982 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
 2023-07-19 18:53:05.224 -04:00 [INF] HTTP POST /api/Users/register responded 400 in 196.4782 ms
 2023-07-19 18:53:58.947 -04:00 [INF] HTTP POST /api/Users/register responded 200 in 2512.8313 ms
+2023-07-19 19:44:56.908 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-19 19:44:56.922 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-19 19:44:56.923 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 19:44:56.923 -04:00 [INF] Hosting environment: Development
+2023-07-19 19:44:56.923 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
+2023-07-19 20:14:27.774 -04:00 [INF] Now listening on: https://localhost:7031
+2023-07-19 20:14:27.790 -04:00 [INF] Now listening on: http://localhost:5169
+2023-07-19 20:14:27.790 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 20:14:27.790 -04:00 [INF] Hosting environment: Development
+2023-07-19 20:14:27.790 -04:00 [INF] Content root path: /Users/deanfriedland/Projects/VacationStay.API/VacationStay.API
